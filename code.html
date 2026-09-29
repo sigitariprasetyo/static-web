@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="id"
+  style="height: 100%; min-height: 100vh; overflow: hidden auto; background-color: rgb(252, 249, 245); color: rgb(26, 26, 24); margin: 0px; padding: 0px; display: block; position: relative;">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Atelier Paintworks - Jasa Pengecatan Profesional</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet">
+  <style>
+    *,
+    ::before,
+    ::after {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      min-height: 100vh;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+      background-color: #FCF9F5;
+      color: #1A1A18;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "error": "#ba1a1a",
+            "on-primary": "#ffffff",
+            "on-secondary-fixed": "#1d1c16",
+            "surface-bright": "#fcf9f5",
+            "tertiary-fixed-dim": "#aecfb2",
+            "on-tertiary-container": "#deffe1",
+            "error-container": "#ffdad6",
+            "on-error-container": "#93000a",
+            "on-primary-container": "#fff5f2",
+            "secondary-container": "#e7e2d9",
+            "primary-fixed": "#ffdbcf",
+            "surface-tint": "#9f411b",
+            "on-surface": "#1c1c1a",
+            "surface-variant": "#e5e2de",
+            "primary": "#983c16",
+            "on-secondary": "#ffffff",
+            "on-tertiary-fixed": "#04210e",
+            "surface-container-low": "#f6f3ef",
+            "tertiary-fixed": "#c9ebcd",
+            "on-primary-fixed": "#380d00",
+            "on-background": "#1c1c1a",
+            "on-surface-variant": "#56423b",
+            "surface-dim": "#dcdad6",
+            "primary-container": "#b8532c",
+            "inverse-primary": "#ffb59b",
+            "tertiary": "#425f48",
+            "tertiary-container": "#5a785f",
+            "surface-container-highest": "#e5e2de",
+            "on-error": "#ffffff",
+            "on-secondary-fixed-variant": "#494740",
+            "surface-container": "#f0edea",
+            "outline": "#8a726a",
+            "primary-fixed-dim": "#ffb59b",
+            "on-primary-fixed-variant": "#802a04",
+            "secondary-fixed-dim": "#cac6be",
+            "surface-container-lowest": "#ffffff",
+            "surface-container-high": "#ebe8e4",
+            "surface": "#fcf9f5",
+            "inverse-on-surface": "#f3f0ec",
+            "background": "#fcf9f5",
+            "on-secondary-container": "#67645d",
+            "outline-variant": "#ddc0b7",
+            "on-tertiary-fixed-variant": "#304d37",
+            "secondary-fixed": "#e7e2d9",
+            "secondary": "#615e58",
+            "on-tertiary": "#ffffff",
+            "inverse-surface": "#31302e"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          spacing: {
+            "space-xs": "0.25rem",
+            "margin": "3rem",
+            "space-lg": "1.5rem",
+            "space-md": "1rem",
+            "margin-mobile": "1.25rem",
+            "space-xl": "2.5rem",
+            "space-sm": "0.5rem",
+            "gutter-mobile": "1rem",
+            "gutter": "1.5rem"
+          },
+          fontFamily: {
+            "body-lg": ["Plus Jakarta Sans"],
+            "headline-xl-mobile": ["Plus Jakarta Sans"],
+            "body-sm": ["Plus Jakarta Sans"],
+            "label-md": ["Plus Jakarta Sans"],
+            "headline-sm": ["Plus Jakarta Sans"],
+            "headline-lg": ["Plus Jakarta Sans"],
+            "body-md": ["Plus Jakarta Sans"],
+            "label-sm": ["Plus Jakarta Sans"],
+            "headline-lg-mobile": ["Plus Jakarta Sans"],
+            "headline-md": ["Plus Jakarta Sans"],
+            "headline-xl": ["Plus Jakarta Sans"]
+          },
+          fontSize: {
+            "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "400" }],
+            "headline-xl-mobile": ["36px", { "lineHeight": "40px", "letterSpacing": "-0.025em", "fontWeight": "700" }],
+            "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }],
+            "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "headline-sm": ["20px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "headline-lg": ["40px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "700" }],
+            "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" }],
+            "headline-lg-mobile": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "headline-md": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "headline-xl": ["56px", { "lineHeight": "60px", "letterSpacing": "-0.03em", "fontWeight": "700" }]
+          }
+        }
+      }
+    };
+  </script>
+</head>
+
+<body
+  class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-fixed selection:text-on-primary-fixed"
+  style="height: 100%; min-height: 100vh; overflow-y: auto; overflow-x: hidden; background-color: #FCF9F5; color: #1A1A18; margin: 0; padding: 0; display: block; position: relative;">
+  <!-- HEADER -->
+  <header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+    <div class="h-20 max-w-[1280px] mx-auto px-6 lg:px-12 flex items-center justify-between gap-6">
+      <a class="flex items-center gap-3 shrink-0" href="#">
+        <img alt="Atelier Paintworks" class="h-36 w-auto object-contain"
+          src="https://lh3.googleusercontent.com/aida/AEtjO1UD2xAz-rzkWCHPrpnfT1gN_yw6E1ZTOVdRupjiUoqNaCBTLx__MIRixlicgJYFZQYDvkB72kgKa5i8uCFrnourpKBXj4JM2fNX-kRd6xmj351gmmIneD0_czpATQi_AdaCknj9APEI94_WdhpT_Iv-pXDsez16MB2u79UgeVvhY7hUJYCp1FraW2agD9dsp3BXwyDmM_Y_e736N9HwD5USKQEr13YJHT7lBPh_EexLWtaGLtXtbS5BLD73">
+      </a>
+      <nav class="hidden md:flex items-center gap-1 font-label-md text-label-md">
+        <a aria-current="page"
+          class="px-3 py-2 transition-colors bg-secondary-container text-on-secondary-fixed font-semibold rounded-lg"
+          href="#">Home</a>
+        <a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors" href="#layanan">Layanan</a>
+        <a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors"
+          href="#hasil-pekerjaan">Hasil Proyek</a>
+        <a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors" href="#proses">Proses</a>
+        <a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors" href="#kenapa-kami">Tentang
+          Kami</a>
+        <a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors" href="#faq">FAQ</a>
+        <a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors" href="#kontak">Kontak</a>
+      </nav>
+      <div class="flex items-center gap-4 shrink-0">
+        <div
+          class="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low text-on-surface-variant">
+          <span class="material-symbols-outlined text-[18px] text-tertiary">call</span>
+          <span class="font-label-md text-label-md text-on-surface">+62 812-3456-7890</span>
+        </div>
+        <a class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-colors shadow-[0_4px_16px_rgba(184,83,44,0.2)]"
+          href="https://wa.me/6281234567890" rel="noopener noreferrer" target="_blank">
+          <span class="material-symbols-outlined text-[18px]">chat</span>
+          <span class="">Konsultasi WhatsApp</span>
+        </a>
+        <button aria-label="Buka Menu Navigasi"
+          class="flex md:hidden items-center justify-center w-10 h-10 rounded-xl bg-surface-container text-on-surface hover:text-primary transition-colors focus:outline-none"
+          id="mobileMenuBtn" onclick="document.getElementById('mobileMenuDrawer').classList.toggle('hidden');"
+          type="button">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="2" viewBox="0 0 24 24">
+            <line x1="4" x2="20" y1="6" y2="6"></line>
+            <line x1="4" x2="20" y1="12" y2="12"></line>
+            <line x1="4" x2="20" y1="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="hidden md:hidden border-t border-surface-container-highest bg-surface px-6 py-5 shadow-xl transition-all duration-300"
+      id="mobileMenuDrawer">
+      <div class="flex flex-col space-y-3 font-label-md text-label-md">
+        <a class="px-3 py-2 rounded-lg bg-secondary-container text-on-secondary-fixed font-semibold" href="#"
+          onclick="document.getElementById('mobileMenuDrawer').classList.add('hidden');">Home</a>
+        <a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors"
+          href="#layanan" onclick="document.getElementById('mobileMenuDrawer').classList.add('hidden');">Layanan</a>
+        <a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors"
+          href="#hasil-pekerjaan" onclick="document.getElementById('mobileMenuDrawer').classList.add('hidden');">Hasil
+          Proyek</a>
+        <a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors"
+          href="#proses" onclick="document.getElementById('mobileMenuDrawer').classList.add('hidden');">Proses</a>
+        <a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors"
+          href="#kenapa-kami" onclick="document.getElementById('mobileMenuDrawer').classList.add('hidden');">Tentang
+          Kami</a>
+        <a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors"
+          href="#faq" onclick="document.getElementById('mobileMenuDrawer').classList.add('hidden');">FAQ</a>
+        <a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors"
+          href="#kontak" onclick="document.getElementById('mobileMenuDrawer').classList.add('hidden');">Kontak</a>
+        <div class="pt-2">
+          <a class="flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md shadow-sm w-full"
+            href="https://wa.me/6281234567890" rel="noopener noreferrer" target="_blank">
+            <span class="material-symbols-outlined text-[18px]">chat</span>
+            <span class="">Konsultasi WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- MAIN -->
+  <main class="w-full pt-20 bg-background">
+    <div class="flex flex-col w-full">
+      <!-- HERO SECTION -->
+      <section class="relative w-full overflow-hidden bg-surface py-12 lg:py-20">
+        <div class="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+            <!-- Text Column -->
+            <div class="lg:col-span-7 flex flex-col items-start space-y-6">
+              <div
+                class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-surface-container text-on-surface-variant shadow-sm">
+                <span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+                <span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface">Jasa Pengecatan
+                  Profesional &amp; Bergaransi</span>
+              </div>
+              <h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight leading-[1.08] max-w-2xl">
+                Wujudkan Rumah dengan Warna yang <span class="text-primary-container italic font-serif">Lebih
+                  Indah</span>
+              </h1>
+              <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+                Jasa pengecatan rumah, interior, dan eksterior dengan pengerjaan rapi, bersih tanpa noda tetesan, tenaga
+                berpengalaman, dan konsultasi warna gratis langsung ke hunian Anda.
+              </p>
+              <div class="flex flex-wrap items-center gap-4 pt-2 w-full sm:w-auto">
+                <a class="inline-flex items-center justify-center gap-3 px-7 py-3.5 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-all duration-300 shadow-[0_8px_24px_rgba(184,83,44,0.25)] hover:shadow-[0_12px_32px_rgba(184,83,44,0.35)]"
+                  href="https://wa.me/6281234567890" rel="noopener noreferrer" target="_blank">
+                  <span class="material-symbols-outlined text-[20px]">chat</span>
+                  <span class="">Konsultasi Gratis via WhatsApp</span>
+                </a>
+                <a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-secondary-container text-on-secondary-fixed font-label-md text-label-md hover:bg-surface-variant transition-colors"
+                  href="#hasil-pekerjaan">
+                  <span class="">Lihat Hasil Pekerjaan</span>
+                  <span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+                </a>
+              </div>
+              <!-- Highlight Badges -->
+              <div class="pt-6 grid grid-cols-3 gap-3 w-full max-w-lg">
+                <div class="flex items-center gap-2.5 p-3 rounded-xl bg-surface-container-low">
+                  <span class="material-symbols-outlined text-tertiary text-[20px]">verified</span>
+                  <div class="flex flex-col">
+                    <span class="font-label-sm text-label-sm text-on-surface">100% Rapi</span>
+                    <span class="font-body-sm text-body-sm text-on-surface-variant">Bebas Noda Cat</span>
+                  </div>
+                </div>
+                <div class="flex items-center gap-2.5 p-3 rounded-xl bg-surface-container-low">
+                  <span class="material-symbols-outlined text-primary-container text-[20px]">architecture</span>
+                  <div class="flex flex-col">
+                    <span class="font-label-sm text-label-sm text-on-surface">Survey Gratis</span>
+                    <span class="font-body-sm text-body-sm text-on-surface-variant">Radius 25 Km</span>
+                  </div>
+                </div>
+                <div class="flex items-center gap-2.5 p-3 rounded-xl bg-surface-container-low">
+                  <span class="material-symbols-outlined text-tertiary text-[20px]">format_image_left</span>
+                  <div class="flex flex-col">
+                    <span class="font-label-sm text-label-sm text-on-surface">Garansi Nyata</span>
+                    <span class="font-body-sm text-body-sm text-on-surface-variant">Hingga 6 Bulan</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Visual Column -->
+            <div class="lg:col-span-5 relative">
+              <div class="relative rounded-2xl overflow-hidden bg-surface-container-lowest shadow-xl">
+                <img class="w-full h-[460px] object-cover"
+                  data-alt="High-end Japandi living room interior freshly painted with smooth creamy off-white and warm terracotta accent wall"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmPT6Q7IOMEd4tFnrvKWPQmaDuBqaDeFlJeSU4EXHl3M3YEiqua7fXhPKR2Xp2Y80bmr-rOIoWwp77lcaWZ1wtSpdbAv5S5dqQQIYH-QH_4bWfzsBAeG8bdoteOQCEI6ES3CW3Eq66cR5EH8tRGjhCu49zpHuYy3nLpDTwCYkyRddZcjk-cPv8LU-ujFxmWzWN__wHv199_-Hjl17md2ip-nIMLthiASPPnsgg83eft9-YIyoNYYQNyQ">
+                <!-- Quality Seal Floating Card -->
+                <div
+                  class="absolute top-4 left-4 bg-surface/95 backdrop-blur-md px-4 py-2.5 rounded-xl shadow-md flex items-center gap-3">
+                  <div
+                    class="w-9 h-9 rounded-lg bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed">
+                    <span class="material-symbols-outlined text-[20px]">sentiment_very_satisfied</span>
+                  </div>
+                  <div class="flex flex-col">
+                    <span class="font-label-md text-label-md text-on-surface">99.4% Kepuasan Klien</span>
+                    <span class="font-body-sm text-body-sm text-on-surface-variant">Dari 420+ Hunian</span>
+                  </div>
+                </div>
+                <!-- Painter Craftsmanship Micro-card -->
+                <div
+                  class="absolute bottom-4 right-4 left-4 bg-surface/95 backdrop-blur-md p-4 rounded-xl shadow-lg flex items-center justify-between">
+                  <div class="flex items-center gap-3">
+                    <img alt="Atelier Paintworks Logo"
+                      class="w-10 h-10 rounded-lg object-contain bg-surface-container p-1"
+                      src="https://lh3.googleusercontent.com/aida/AEtjO1UD2xAz-rzkWCHPrpnfT1gN_yw6E1ZTOVdRupjiUoqNaCBTLx__MIRixlicgJYFZQYDvkB72kgKa5i8uCFrnourpKBXj4JM2fNX-kRd6xmj351gmmIneD0_czpATQi_AdaCknj9APEI94_WdhpT_Iv-pXDsez16MB2u79UgeVvhY7hUJYCp1FraW2agD9dsp3BXwyDmM_Y_e736N9HwD5USKQEr13YJHT7lBPh_EexLWtaGLtXtbS5BLD73">
+                    <div class="flex flex-col">
+                      <span class="font-label-md text-label-md text-on-surface">Standar Pengecatan Atelier</span>
+                      <span class="font-body-sm text-body-sm text-on-surface-variant">Masking 3M • Primer Kedap • 2x
+                        Topcoat</span>
+                    </div>
+                  </div>
+                  <span
+                    class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-primary-container text-on-primary">
+                    <span class="material-symbols-outlined text-[18px]">verified</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- QUICK BENEFITS / TRUST PILLARS -->
+      <section class="w-full bg-surface-container-low py-14">
+        <div class="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Benefit 1 -->
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col space-y-3">
+              <div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+                <span class="material-symbols-outlined text-[24px]">cleaning_services</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface pt-1">Pengerjaan Rapi &amp; Bersih</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Perlindungan penuh lantai, saklar, dan furnitur dengan drop sheet tebal dan masking tape presisi. Tanpa
+                cipratan noda.
+              </p>
+            </div>
+            <!-- Benefit 2 -->
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col space-y-3">
+              <div
+                class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed">
+                <span class="material-symbols-outlined text-[24px]">engineering</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface pt-1">Tenaga Berpengalaman</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Aplikator terlatih dengan standar atelier. Memahami formulasi cat, kelembapan plester, dan teknik roll
+                merata sempurna.
+              </p>
+            </div>
+            <!-- Benefit 3 -->
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col space-y-3">
+              <div
+                class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+                <span class="material-symbols-outlined text-[24px]">palette</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface pt-1">Survey &amp; Konsultasi Gratis</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Konsultasi tone warna dengan swatch nyata di dinding hunian. Estimasi anggaran transparan tanpa biaya
+                siluman.
+              </p>
+            </div>
+            <!-- Benefit 4 -->
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col space-y-3">
+              <div
+                class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-on-surface">
+                <span class="material-symbols-outlined text-[24px]">location_city</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface pt-1">Area Layanan Luas</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Melayani rumah tinggal, apartemen, ruko, cafe, perumahan cluster, hingga kantor komersial di seluruh
+                area Jabodetabek.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CORE SERVICES SECTION -->
+      <section class="w-full bg-surface py-20 lg:py-24" id="layanan">
+        <div class="max-w-[1280px] mx-auto px-6 lg:px-12 flex flex-col space-y-12">
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+            <div class="space-y-3 max-w-2xl">
+              <div
+                class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase tracking-wide">
+                Katalog Layanan
+              </div>
+              <h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+                Layanan Pengecatan Menyeluruh
+              </h2>
+              <p class="font-body-lg text-body-lg text-on-surface-variant">
+                Solusi pengecatan presisi disesuaikan dengan kondisi dinding, kelembapan, dan kebutuhan estetika ruang
+                Anda.
+              </p>
+            </div>
+            <a class="inline-flex items-center gap-2 text-primary font-label-md text-label-md hover:underline shrink-0"
+              href="https://wa.me/6281234567890" rel="noopener noreferrer" target="_blank">
+              <span class="">Tanya Paket Custom</span>
+              <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+            </a>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Service Card 1 -->
+            <div
+              class="group rounded-2xl bg-surface-container-lowest p-4 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+              <div class="space-y-4">
+                <div class="relative h-48 rounded-xl overflow-hidden bg-surface-container">
+                  <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    data-alt="Modern serene minimalist bedroom with ultra smooth matte sage and warm white painted walls"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFTKowVvWEOwWV1oB0M-flgQx5UgbDq_AJD9vRz6kH_FfhTF58JUfiXRXf1lGjpOmBVKhlQ31eLN3NKNlOIde_7IKVLkazok61csA6lw5pFtz6OQ4my862KgtKrs4gfSc2CKI0qijJx7ZbhCpEoMGszDoWFwwvO-RspCONRAbRQGD_Rfc8PTxpcJj05IvpmZi5ZEu7cJfxi_XR9KuC1yQvYFrI5YB-aKKWXj5UA75yQmJUcPTT0TR2kw">
+                  <span
+                    class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-surface/90 backdrop-blur-sm font-label-sm text-label-sm text-on-surface font-semibold">Interior</span>
+                </div>
+                <div>
+                  <h3
+                    class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                    Cat Interior</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant pt-2 leading-relaxed">
+                    Pengecatan ruang tamu, kamar, dan plafon gypsum. Menggunakan cat low-VOC yang tidak berbau, cepat
+                    kering, dan aman bagi anak &amp; hewan peliharaan.
+                  </p>
+                </div>
+                <ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface-variant pt-1">
+                  <li class="flex items-center gap-2"><span
+                      class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>Plamir &amp; amplas
+                    debu minim</li>
+                  <li class="flex items-center gap-2"><span
+                      class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>Pilihan finishing:
+                    Matte, Satin, Eggshell</li>
+                </ul>
+              </div>
+              <div class="pt-6 mt-4 flex items-center justify-between">
+                <div class="flex flex-col">
+                  <span class="font-label-sm text-label-sm text-on-surface-variant">Mulai Dari</span>
+                  <span class="font-label-md text-label-md font-bold text-primary-container">Rp 25.000 / m²</span>
+                </div>
+                <a class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:bg-primary-container hover:text-on-primary transition-colors"
+                  href="https://wa.me/6281234567890?text=Halo%20Atelier,%20saya%20tertarik%20dengan%20layanan%20Cat%20Interior"
+                  rel="noopener noreferrer" target="_blank">
+                  <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+                </a>
+              </div>
+            </div>
+            <!-- Service Card 2 -->
+            <div
+              class="group rounded-2xl bg-surface-container-lowest p-4 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+              <div class="space-y-4">
+                <div class="relative h-48 rounded-xl overflow-hidden bg-surface-container">
+                  <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    data-alt="Architectural modern residential exterior facade with sleek charcoal grey and warm sand exterior waterproof weather-resistant paint"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVh6vIdLmD0yZXQBQC7wAqz_HqDULXwp3Mlm5vk-xX13tJmtLA09ahb2Z_rF1FozC2TE3OLI5yaxv1VJPZ6EwoVFG4gokM4Il7lpkhSgOmAQIBMf4oqUoyp6tUj5ovYP4prYMPGnx2T4v3uaO67xRTw6vMc77qyMD-VMeWvFuFSYRhQH9i0giVCz-DDi4mfn0ksgbDSBnUKSTfaYXiN-WV570bN2cojiV1lqvvhsL27r6TPGRd_1xCtg">
+                  <span
+                    class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-surface/90 backdrop-blur-sm font-label-sm text-label-sm text-on-surface font-semibold">Eksterior</span>
+                </div>
+                <div>
+                  <h3
+                    class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                    Cat Eksterior</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant pt-2 leading-relaxed">
+                    Proteksi fasad hunian, dinding luar, dan pagar. Tahan terpaan hujan tropis, anti-jamur, tidak mudah
+                    pudar oleh sinar ultraviolet.
+                  </p>
+                </div>
+                <ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface-variant pt-1">
+                  <li class="flex items-center gap-2"><span
+                      class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>Waterproofing
+                    anti-rembes</li>
+                  <li class="flex items-center gap-2"><span
+                      class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>Formula alkali
+                    resistant sealer</li>
+                </ul>
+              </div>
+              <div class="pt-6 mt-4 flex items-center justify-between">
+                <div class="flex flex-col">
+                  <span class="font-label-sm text-label-sm text-on-surface-variant">Mulai Dari</span>
+                  <span class="font-label-md text-label-md font-bold text-primary-container">Rp 32.000 / m²</span>
+                </div>
+                <a class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:bg-primary-container hover:text-on-primary transition-colors"
+                  href="https://wa.me/6281234567890?text=Halo%20Atelier,%20saya%20tertarik%20dengan%20layanan%20Cat%20Eksterior"
+                  rel="noopener noreferrer" target="_blank">
+                  <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+                </a>
+              </div>
+            </div>
+            <!-- Service Card 3 -->
+            <div
+              class="group rounded-2xl bg-surface-container-lowest p-4 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+              <div class="space-y-4">
+                <div class="relative h-48 rounded-xl overflow-hidden bg-surface-container">
+                  <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    data-alt="Craftsman repainting an old weathered living room wall, showing smooth plaster patch repair and fresh warm paint application"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSKdYgGssCsvQm1nuWMvoWiTU4C9pKz1IoiylJUiwp8FBFm4s9usYhYOxcceyVutVfvqInCiG_n7Qf_Rpjop2AnEUkl8QFBiw_SFx6XtHUpxOwIxGyM13aUUgxUToTHRUjQUsaQulfa-QzswLot6PteF6T0yvxE2fWZ-g30DKCBRmQALznQj3HgJKe52osFdOts0_oZ-SQGlALCvIRIDpL33TXrp-i-2DUHQWPN09l5vnMDGRL2Sd-qA">
+                  <span
+                    class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-surface/90 backdrop-blur-sm font-label-sm text-label-sm text-on-surface font-semibold">Refresh</span>
+                </div>
+                <div>
+                  <h3
+                    class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                    Cat Ulang (Repainting)</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant pt-2 leading-relaxed">
+                    Penyegaran warna dinding lama kusam, mengelupas, atau belang. Termasuk perbaikan retak rambut dan
+                    pengerokan cat lapuk.
+                  </p>
+                </div>
+                <ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface-variant pt-1">
+                  <li class="flex items-center gap-2"><span
+                      class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>Kupas cat lama
+                    &amp; treatment jamur</li>
+                  <li class="flex items-center gap-2"><span
+                      class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>Treatment retak
+                    rambut gypsum/tembok</li>
+                </ul>
+              </div>
+              <div class="pt-6 mt-4 flex items-center justify-between">
+                <div class="flex flex-col">
+                  <span class="font-label-sm text-label-sm text-on-surface-variant">Mulai Dari</span>
+                  <span class="font-label-md text-label-md font-bold text-primary-container">Rp 28.000 / m²</span>
+                </div>
+                <a class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:bg-primary-container hover:text-on-primary transition-colors"
+                  href="https://wa.me/6281234567890?text=Halo%20Atelier,%20saya%20tertarik%20dengan%20layanan%20Cat%20Ulang"
+                  rel="noopener noreferrer" target="_blank">
+                  <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+                </a>
+              </div>
+            </div>
+            <!-- Service Card 4 -->
+            <div
+              class="group rounded-2xl bg-surface-container-lowest p-4 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+              <div class="space-y-4">
+                <div class="relative h-48 rounded-xl overflow-hidden bg-surface-container">
+                  <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    data-alt="Modern commercial storefront and office building exterior newly painted in sophisticated matte neutral colors"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgt9IZzEPQCL7OgRQOFy7lDk2HHetX1RTLlblIl6Pc5VDVPmrMe4jSz-MqiYdUvzDnTLYuPaTWqy3eG0FCmB6CWO1_J75csP9mnHhR9HBM2dnNuyRWl2kTthRYclnPBDB8kulibzx48s6ZYCLKB7tec1JrhGjCTszUInsYn0saxvOmLM8wqW-6cZlccKopnD7U9XxVvoA3hmtrpi5zxYYaI6y_jG2-Galb3e9T2h-71JQHyr1VqJW8_g">
+                  <span
+                    class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-surface/90 backdrop-blur-sm font-label-sm text-label-sm text-on-surface font-semibold">Komersial</span>
+                </div>
+                <div>
+                  <h3
+                    class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                    Pengecatan Ruko &amp; Kantor</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant pt-2 leading-relaxed">
+                    Solusi skala besar untuk gedung ruko 2–4 lantai, unit kantor, butik, dan showroom. Pengerjaan cepat
+                    dengan sistem shift fleksibel.
+                  </p>
+                </div>
+                <ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface-variant pt-1">
+                  <li class="flex items-center gap-2"><span
+                      class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>Scaffolding &amp;
+                    perlengkapan K3 lengkap</li>
+                  <li class="flex items-center gap-2"><span
+                      class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>Sistem borongan
+                    transparan &amp; PPh ready</li>
+                </ul>
+              </div>
+              <div class="pt-6 mt-4 flex items-center justify-between">
+                <div class="flex flex-col">
+                  <span class="font-label-sm text-label-sm text-on-surface-variant">Mulai Dari</span>
+                  <span class="font-label-md text-label-md font-bold text-primary-container">Rp 22.000 / m²</span>
+                </div>
+                <a class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:bg-primary-container hover:text-on-primary transition-colors"
+                  href="https://wa.me/6281234567890?text=Halo%20Atelier,%20saya%20tertarik%20dengan%20layanan%20Cat%20Ruko"
+                  rel="noopener noreferrer" target="_blank">
+                  <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- WHY CHOOSE US (ASYMMETRIC EDITORIAL) -->
+      <section class="w-full bg-surface-container-low py-20 lg:py-28" id="kenapa-kami">
+        <div class="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            <!-- Left Side: 4 Value Points -->
+            <div class="lg:col-span-6 flex flex-col space-y-8">
+              <div class="space-y-3">
+                <span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Mengapa
+                  Atelier Paintworks?</span>
+                <h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+                  Bukan Sekadar Mengecat, Kami Menjaga Standar Hunian Anda
+                </h2>
+                <p class="font-body-md text-body-md text-on-surface-variant">
+                  Kami menyadari kekhawatiran terbesar saat renovasi adalah cat berceceran, tukang tidak disiplin, dan
+                  warna yang tidak sesuai ekspektasi. Kami mengubah pengalaman itu menjadi bebas stres.
+                </p>
+              </div>
+              <div class="space-y-6">
+                <!-- Point 1 -->
+                <div class="flex items-start gap-5">
+                  <span
+                    class="font-headline-sm text-headline-sm text-primary-container font-mono bg-primary-fixed/40 w-10 h-10 rounded-lg flex items-center justify-center shrink-0">01</span>
+                  <div class="space-y-1">
+                    <h4 class="font-headline-sm text-headline-sm text-on-surface">Pengerjaan Rapi &amp; Masking
+                      Menyeluruh</h4>
+                    <p class="font-body-md text-body-md text-on-surface-variant">
+                      Setiap lantai keramik, marmer, kusen pintu, saklar, dan perabot ditutup plastik proteksi dan tape
+                      khusus sebelum kuas pertama menyentuh dinding.
+                    </p>
+                  </div>
+                </div>
+                <!-- Point 2 -->
+                <div class="flex items-start gap-5">
+                  <span
+                    class="font-headline-sm text-headline-sm text-primary-container font-mono bg-primary-fixed/40 w-10 h-10 rounded-lg flex items-center justify-center shrink-0">02</span>
+                  <div class="space-y-1">
+                    <h4 class="font-headline-sm text-headline-sm text-on-surface">Aplikator Terverifikasi Standar Tinggi
+                    </h4>
+                    <p class="font-body-md text-body-md text-on-surface-variant">
+                      Tukang cat tetap dengan pelatihan sertifikasi produsen cat terkemuka (Jotun, Dulux, Mowilex).
+                      Berpakaian rapi, sopan, dan tidak merokok di dalam ruang kerja.
+                    </p>
+                  </div>
+                </div>
+                <!-- Point 3 -->
+                <div class="flex items-start gap-5">
+                  <span
+                    class="font-headline-sm text-headline-sm text-primary-container font-mono bg-primary-fixed/40 w-10 h-10 rounded-lg flex items-center justify-center shrink-0">03</span>
+                  <div class="space-y-1">
+                    <h4 class="font-headline-sm text-headline-sm text-on-surface">Konsultasi Warna &amp; Swatch Nyata
+                    </h4>
+                    <p class="font-body-md text-body-md text-on-surface-variant">
+                      Bingung memilih shade warm beige atau greige? Tim kami mengaplikasikan sampel cat nyata di dinding
+                      hunian agar Anda melihat refleksi cahaya sesungguhnya.
+                    </p>
+                  </div>
+                </div>
+                <!-- Point 4 -->
+                <div class="flex items-start gap-5">
+                  <span
+                    class="font-headline-sm text-headline-sm text-primary-container font-mono bg-primary-fixed/40 w-10 h-10 rounded-lg flex items-center justify-center shrink-0">04</span>
+                  <div class="space-y-1">
+                    <h4 class="font-headline-sm text-headline-sm text-on-surface">Jadwal Terencana &amp; Tepat Waktu
+                    </h4>
+                    <p class="font-body-md text-body-md text-on-surface-variant">
+                      Jadwal mulai dan serah terima ditentukan secara tertulis di awal proyek. Laporan berkala melalui
+                      WhatsApp harian untuk memantau progres tanpa perlu repot menunggui.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Right Side: Editorial Image & Quality Checklist Card -->
+            <div class="lg:col-span-6 relative">
+              <div class="rounded-3xl overflow-hidden bg-surface-container shadow-xl">
+                <img class="w-full h-[520px] object-cover"
+                  data-alt="Professional painter with protective gloves carefully taping edge of wall with precision masking tape"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuABDlDV41RPNDcLFUeQ97B4Xe5iH-3rVhk2Ee7Rl1l8v-VMoKpjY3cpFiKsaiHv9xfQ34tgV_xb8erpncW43IjaLfapPSRsXf6C7AJkgMtnQg_K3dwOg_3EvqPtJ6UmccS6xdl8McDlFdk-it1To85YPOZDZlOa2CB2IyolJt0hdmqODyRY5NHaqLtVeZHtnE6tRwhozAi0K6qr6WK2--uz4uPVmcBQEZXPn-rQQTxSIXA-f9GOTdi7_A">
+              </div>
+              <!-- Quality Assurance floating badge -->
+              <div
+                class="absolute -bottom-8 -left-4 sm:left-6 right-4 sm:right-auto max-w-sm rounded-2xl bg-surface-container-lowest p-6 shadow-2xl space-y-4">
+                <div class="flex items-center gap-3">
+                  <div
+                    class="w-10 h-10 rounded-xl bg-tertiary-container flex items-center justify-center text-on-tertiary">
+                    <span class="material-symbols-outlined text-[20px]">fact_check</span>
+                  </div>
+                  <div>
+                    <h5 class="font-label-md text-label-md text-on-surface">Quality Checklist Atelier</h5>
+                    <span class="font-body-sm text-body-sm text-on-surface-variant">Standar Serah Terima
+                      Pekerjaan</span>
+                  </div>
+                </div>
+                <div class="space-y-2 font-body-sm text-body-sm text-on-surface">
+                  <div class="flex items-center gap-2.5">
+                    <span class="material-symbols-outlined text-tertiary text-[18px]">done_all</span>
+                    <span class="">Alas pelindung lantai &amp; perabot terpasang rapat</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <span class="material-symbols-outlined text-tertiary text-[18px]">done_all</span>
+                    <span class="">Plamir &amp; amplas dinding rata tanpa guratan</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <span class="material-symbols-outlined text-tertiary text-[18px]">done_all</span>
+                    <span class="">2 lapis topcoat warna presisi &amp; solid</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <span class="material-symbols-outlined text-tertiary text-[18px]">done_all</span>
+                    <span class="">Pembersihan total &amp; mop lantai pasca kerja</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- INTERACTIVE BEFORE & AFTER COMPARISON SECTION -->
+      <section class="w-full bg-surface py-20 lg:py-28 overflow-hidden">
+        <div class="max-w-[1280px] mx-auto px-6 lg:px-12 flex flex-col space-y-10">
+          <div class="text-center max-w-2xl mx-auto space-y-3">
+            <span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Transformasi
+              Nyata</span>
+            <h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+              Lihat Perubahannya
+            </h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant">
+              Bandingkan hasil kondisi dinding sebelum dan sesudah sentuhan warna dan formulasi cat berkelas dari tim
+              Atelier.
+            </p>
+          </div>
+          <!-- Slider Component Container -->
+          <div class="relative w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl select-none"
+            id="beforeAfterContainer" style="aspect-ratio: 16/9; min-height: 380px;">
+            <!-- AFTER Image (Underneath) -->
+            <img class="absolute inset-0 w-full h-full object-cover"
+              data-alt="After view: Gorgeous modern Japandi living room with immaculate warm beige painted walls"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAncqWZuXxwiVftfp_PXkhfOEbl5omOEs_IHfJd5be7T6J6tLoFKgYuM8fnhioh_kdZZQN56Zj0OR4FXwKMNKsLqHbNNpSxSKlxnzY7kwa9IBs511zuIwsOhHbvNqfeivDd8W7PmB-5mAqfTyykCFfg4I6zCT5BauIXJdfrk3PqZfyZivWNvwvxw0bn6wjsYExEY40VzFKMkAepPB_d9dduQWgf51PU07NX7OFfisr3fDbj1gME6OvRaA">
+            <!-- BEFORE Image (Clipped Layer) -->
+            <div class="absolute inset-y-0 left-0 overflow-hidden" id="beforeLayer" style="width: 50%;">
+              <img class="absolute inset-y-0 left-0 h-full object-cover max-w-none"
+                data-alt="Before view: Dim unkempt living room with faded yellowish peeling wall paint"
+                id="beforeImgRef"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRvqCXDDGZI4VcO5LV4RkbAmC-dabzkrxm2KC4JBEgHrPrxSplBgaMq5KKxXirMTItAYA8KbioDXQtkeorxxLWOSMrtuh9hSCn99q9dSphFpHJTMxot0mfKAoJh13mb-OwtOg0D0st0HscYWde2tsNvB3PQHRAXgEG-mpewB--JkE1GeBcPU1HpqZSTcIhOXLdimXA6y9sm4tPjfanf2BaKyXeHzKPBP9euzTL0M7yO7JSnOGfvnarmw"
+                style="width: 896px;">
+              <div
+                class="absolute bottom-6 left-6 px-3.5 py-1.5 rounded-full bg-on-surface/70 backdrop-blur-md text-surface-container-lowest font-label-sm text-label-sm uppercase tracking-wider">
+                Sebelum (Before)
+              </div>
+            </div>
+            <!-- After Label -->
+            <div
+              class="absolute bottom-6 right-6 px-3.5 py-1.5 rounded-full bg-primary-container/85 backdrop-blur-md text-on-primary font-label-sm text-label-sm uppercase tracking-wider">
+              Sesudah (After Atelier)
+            </div>
+            <!-- Divider Handle Line -->
+            <div class="absolute inset-y-0 flex items-center justify-center cursor-ew-resize z-20" id="sliderHandle"
+              style="left: 50%;">
+              <div class="w-1 h-full bg-surface-container-lowest shadow-[0_0_12px_rgba(0,0,0,0.5)]"></div>
+              <div
+                class="absolute w-12 h-12 rounded-full bg-surface-container-lowest shadow-xl flex items-center justify-center text-on-surface hover:scale-110 transition-transform">
+                <span class="material-symbols-outlined text-[20px]">swap_horiz</span>
+              </div>
+            </div>
+          </div>
+          <!-- Comparison Project Metadata Banner -->
+          <div class="max-w-4xl mx-auto w-full grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+            <div class="p-4 rounded-xl bg-surface-container flex items-center gap-3">
+              <span class="material-symbols-outlined text-primary-container text-[22px]">home_pin</span>
+              <div class="flex flex-col">
+                <span class="font-label-sm text-label-sm text-on-surface-variant">Proyek</span>
+                <span class="font-label-md text-label-md text-on-surface">Living Room Jagakarsa</span>
+              </div>
+            </div>
+            <div class="p-4 rounded-xl bg-surface-container flex items-center gap-3">
+              <span class="material-symbols-outlined text-primary-container text-[22px]">timer</span>
+              <div class="flex flex-col">
+                <span class="font-label-sm text-label-sm text-on-surface-variant">Durasi Pengerjaan</span>
+                <span class="font-label-md text-label-md text-on-surface">3 Hari Kerja Tuntas</span>
+              </div>
+            </div>
+            <div class="p-4 rounded-xl bg-surface-container flex items-center gap-3">
+              <span class="material-symbols-outlined text-primary-container text-[22px]">format_paint</span>
+              <div class="flex flex-col">
+                <span class="font-label-sm text-label-sm text-on-surface-variant">Spesifikasi Cat</span>
+                <span class="font-label-md text-label-md text-on-surface">Low-VOC Silk Sheen Finish</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PORTFOLIO SECTION WITH FILTER TABS -->
+      <section class="w-full bg-surface-container-low py-20 lg:py-24" id="hasil-pekerjaan">
+        <div class="max-w-[1280px] mx-auto px-6 lg:px-12 flex flex-col space-y-10">
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+            <div class="space-y-3 max-w-xl">
+              <span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Hasil Proyek
+                Kami</span>
+              <h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+                Koleksi Transformasi Hunian &amp; Properti
+              </h2>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Setiap sudut dikerjakan dengan ketelitian tingkat tinggi, garis tepi rapi tanpa bleber, dan kilap warna
+                yang tahan lama.
+              </p>
+            </div>
+            <!-- Filter Tab Buttons -->
+            <div class="flex flex-wrap gap-2" id="portfolioFilterGroup">
+              <button
+                class="portfolio-filter-btn px-4 py-2 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md transition-all shadow-sm"
+                data-filter="all">Semua Proyek</button>
+              <button
+                class="portfolio-filter-btn px-4 py-2 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md hover:bg-secondary-container transition-all"
+                data-filter="interior">Interior Rumah</button>
+              <button
+                class="portfolio-filter-btn px-4 py-2 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md hover:bg-secondary-container transition-all"
+                data-filter="eksterior">Eksterior &amp; Fasad</button>
+              <button
+                class="portfolio-filter-btn px-4 py-2 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md hover:bg-secondary-container transition-all"
+                data-filter="komersial">Ruko &amp; Bisnis</button>
+            </div>
+          </div>
+          <!-- Gallery Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="portfolioGrid">
+            <!-- Item 1: Exterior -->
+            <div
+              class="portfolio-item rounded-2xl bg-surface-container-lowest p-3 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col space-y-3"
+              data-category="eksterior">
+              <div class="relative h-64 rounded-xl overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  data-alt="Modern minimalist two-story home facade in BSD City"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSz1TVOC9p1B034AZC_d2rumBPwpl58BUNBTtWaKJSQ_ibMK3nA_IirXY1y4bjr1XBk7_Nc7gNeZKMRiwRsoRS3tVkXCj34Aa1UxN1QK7ICRgzXKBvN7SdAr21w4Giv8xloU49FfIkNi0Hxim8JJghBfMeB-m6DkjDEVbcEyKcXfaenqTR0Gv9OBlr6nGPHQUosqq5SjcOHTNz0DPVE6O6w7xwRSY-DHT4fTjFE0_2rz_nt3BhdQW3Fw">
+                <span
+                  class="absolute top-3 left-3 px-3 py-1 rounded-md bg-surface/90 backdrop-blur-sm font-label-sm text-label-sm font-semibold">Eksterior
+                  Fasad</span>
+              </div>
+              <div class="p-2 space-y-1">
+                <h4 class="font-headline-sm text-headline-sm text-on-surface">Modern Minimalist Facade</h4>
+                <p class="font-body-sm text-body-sm text-on-surface-variant">BSD City, Tangerang Selatan • Cat
+                  Weather-Shield Formula</p>
+              </div>
+            </div>
+            <!-- Item 2: Interior -->
+            <div
+              class="portfolio-item rounded-2xl bg-surface-container-lowest p-3 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col space-y-3"
+              data-category="interior">
+              <div class="relative h-64 rounded-xl overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  data-alt="Warm Japandi aesthetic living room"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMKNWYW47eb1DUYHDcimYlCsddIY1q_uxhmvzLiS1kVRo_RNiMc0zw6FVRsFTNzSxlRs7zjH9fW7yQHiITMmtV68M0lYt_5ICI7TmtR6fV2N7GXfRfCKYYqwhNH4YAiYE0_FlwrGLJNJfhy4hfrLjvXROgfBbv0I6NlgkuT4vAIuwRYQoRQm18issIr2JRmYunQz65mOJRminQUmUD8pJJHJwQEZ3760ZL5D5hJYv6PV5h1LKU1wpcSA">
+                <span
+                  class="absolute top-3 left-3 px-3 py-1 rounded-md bg-surface/90 backdrop-blur-sm font-label-sm text-label-sm font-semibold">Interior
+                  Ruang Tamu</span>
+              </div>
+              <div class="p-2 space-y-1">
+                <h4 class="font-headline-sm text-headline-sm text-on-surface">Warm Japandi Living Room</h4>
+                <p class="font-body-sm text-body-sm text-on-surface-variant">Pondok Indah, Jakarta Selatan • Satin
+                  Finish Low-VOC</p>
+              </div>
+            </div>
+            <!-- Item 3: Commercial -->
+            <div
+              class="portfolio-item rounded-2xl bg-surface-container-lowest p-3 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col space-y-3"
+              data-category="komersial">
+              <div class="relative h-64 rounded-xl overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  data-alt="Three story commercial shophouse repainted"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsKeqUW44E6tSOeZruau3phV9WborchgVT0HGGsiNHF4fBANeKNyc2veC4Fh66rx57T9eX67gRdYjMdEaizvFPFxMpKcWR86tJjLCb43_JXeCuEx8BKQjobzGRhPtsMjtXMsrfdnfT8oV8r8ai3AaY0TFELj6d44mQhj4_45m7SnL7mmOKa5-fUcE9B7CrVuPo8Lvds7BrsU9Q5K3ieqm1gTRmnds8NMgKWlkTF4rA9aP0ma-xsPfptA">
+                <span
+                  class="absolute top-3 left-3 px-3 py-1 rounded-md bg-surface/90 backdrop-blur-sm font-label-sm text-label-sm font-semibold">Ruko
+                  Komersial</span>
+              </div>
+              <div class="p-2 space-y-1">
+                <h4 class="font-headline-sm text-headline-sm text-on-surface">Repainting Ruko 3 Lantai</h4>
+                <p class="font-body-sm text-body-sm text-on-surface-variant">Gading Serpong, Tangerang • Waterproofing
+                  &amp; Polyurethane</p>
+              </div>
+            </div>
+            <!-- Item 4: Interior -->
+            <div
+              class="portfolio-item rounded-2xl bg-surface-container-lowest p-3 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col space-y-3"
+              data-category="interior">
+              <div class="relative h-64 rounded-xl overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  data-alt="Cozy master bedroom with terracotta accent wall"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDenUdfIhMWSpbz5RiSrsptJjgMxT3hrDICrAhYGx5j_So_DYWOExxtrw-3z3xa6t8vxA9hVyh2JQSFHil1lYOrIJL3eJKIQ1SMt-VeTXCXgA5sW2aIM-8cezTxxWrbYg62CGb3ynRHSZpO0C-E7TlAd59Vkp6wqGI-SHFv2Tngy6qAzcasz3WsKhzCvwXvRqSxyhork7V-iMHXnCFHCRHJpI1gFHxyS6gnOKEiCEcKphLiJE-BhdqtGA">
+                <span
+                  class="absolute top-3 left-3 px-3 py-1 rounded-md bg-surface/90 backdrop-blur-sm font-label-sm text-label-sm font-semibold">Interior
+                  Kamar</span>
+              </div>
+              <div class="p-2 space-y-1">
+                <h4 class="font-headline-sm text-headline-sm text-on-surface">Master Bedroom Earth Tone</h4>
+                <p class="font-body-sm text-body-sm text-on-surface-variant">Bintaro Jaya Sektor 9 • Anti-Lembap &amp;
+                  Anti-Jamur</p>
+              </div>
+            </div>
+            <!-- Item 5: Exterior -->
+            <div
+              class="portfolio-item rounded-2xl bg-surface-container-lowest p-3 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col space-y-3"
+              data-category="eksterior">
+              <div class="relative h-64 rounded-xl overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  data-alt="Suburban modern villa with clean outdoor plaster finish walls"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSDbMTwnyrMwDzW2Vfylv_CFrnUROIY1ID5_IgqJIhLro-IGK_hSWeG0894rzznOrNzFMs2ZESOocArCOamHLVWm1zNAwEu64N7KQZA--rcgQ9RyAJDEbkGRKXtJ5fxFtC1Ir6HnGYREPuPDtb431BaCptpC452SFFgeo1M_jd5iwLYgvxsAxHSDfFkiIfpRoPyhZMoAjXTb6cQCgBiMW9AnGj_nfUzoNchlQx1Zvvcgm68E_bLVI-ew">
+                <span
+                  class="absolute top-3 left-3 px-3 py-1 rounded-md bg-surface/90 backdrop-blur-sm font-label-sm text-label-sm font-semibold">Fasad
+                  Villa</span>
+              </div>
+              <div class="p-2 space-y-1">
+                <h4 class="font-headline-sm text-headline-sm text-on-surface">Exterior Villa &amp; Pagar Taman</h4>
+                <p class="font-body-sm text-body-sm text-on-surface-variant">Cilandak, Jakarta Selatan • Lapisan Anti-UV
+                  &amp; Lumut</p>
+              </div>
+            </div>
+            <!-- Item 6: Interior Cat Ulang -->
+            <div
+              class="portfolio-item rounded-2xl bg-surface-container-lowest p-3 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col space-y-3"
+              data-category="interior">
+              <div class="relative h-64 rounded-xl overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  data-alt="Historic colonial residence interior restored"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBanDr53O7CcTU2fl6PH_2mU1Dlhy3lFQgIlv1qMriV7kNAQo4WPTGzGqkXCdlcxualf9nQXYNer9QJlexyn03aYSNJ4op0jwtIlkAlL-9loL801Wk95B26CRHpcazw1_tdbxQAmwNfC_-vouFvnsUorJIn5jifx77ql80aUx_DFzkSo-_gJeuKDq9DSfdNpZLdrepsGEFfiTxLLu7vUWZM_gMdUM8cCsTuERgbcUEqpqSEFQV3VJpYZg">
+                <span
+                  class="absolute top-3 left-3 px-3 py-1 rounded-md bg-surface/90 backdrop-blur-sm font-label-sm text-label-sm font-semibold">Cat
+                  Ulang Klasik</span>
+              </div>
+              <div class="p-2 space-y-1">
+                <h4 class="font-headline-sm text-headline-sm text-on-surface">Restorasi Cat Rumah Tinggal</h4>
+                <p class="font-body-sm text-body-sm text-on-surface-variant">Menteng, Jakarta Pusat • Primer Khusus
+                  Dinding Lembap</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center pt-4">
+            <a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md hover:bg-secondary-container transition-colors"
+              href="https://wa.me/6281234567890?text=Halo%20Atelier,%20saya%20ingin%20melihat%20katalog%20portfolio%20lengkap"
+              rel="noopener noreferrer" target="_blank">
+              <span class="">Lihat Portofolio Lengkap di WhatsApp / Instagram</span>
+              <span class="material-symbols-outlined text-[18px]">photo_camera</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- WORK PROCESS TIMELINE -->
+      <section class="w-full bg-surface py-20 lg:py-28" id="proses">
+        <div class="max-w-[1280px] mx-auto px-6 lg:px-12 flex flex-col space-y-16">
+          <div class="text-center max-w-2xl mx-auto space-y-3">
+            <span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Langkah Kerja
+              Sederhana</span>
+            <h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+              Bagaimana Proses Pengecatan Kami?
+            </h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant">
+              5 tahap terstruktur dari konsultasi awal hingga serah terima hunian bersih tanpa repot.
+            </p>
+          </div>
+          <!-- Process Steps Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-5 gap-6 relative">
+            <!-- Step 1 -->
+            <div
+              class="flex flex-col space-y-4 p-5 rounded-2xl bg-surface-container-low shadow-sm relative group hover:bg-surface-container-lowest transition-colors">
+              <div
+                class="w-12 h-12 rounded-xl bg-primary-container text-on-primary flex items-center justify-center font-headline-sm text-headline-sm font-bold">
+                01
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface">Konsultasi Kebutuhan</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Hubungi via WhatsApp. Ceritakan tipe bangunan, perkiraan luas area, kondisi dinding saat ini, dan
+                preferensi warna.
+              </p>
+            </div>
+            <!-- Step 2 -->
+            <div
+              class="flex flex-col space-y-4 p-5 rounded-2xl bg-surface-container-low shadow-sm relative group hover:bg-surface-container-lowest transition-colors">
+              <div
+                class="w-12 h-12 rounded-xl bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-headline-sm text-headline-sm font-bold">
+                02
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface">Survey Lokasi &amp; Cek Dinding</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Tim estimator datang mengukur dimensi nyata, mendeteksi kadar air kelembapan, dan memberikan saran
+                teknis gratis.
+              </p>
+            </div>
+            <!-- Step 3 -->
+            <div
+              class="flex flex-col space-y-4 p-5 rounded-2xl bg-surface-container-low shadow-sm relative group hover:bg-surface-container-lowest transition-colors">
+              <div
+                class="w-12 h-12 rounded-xl bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-headline-sm text-headline-sm font-bold">
+                03
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface">RAB &amp; Pilihan Merk Cat</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Penawaran harga tertulis transparan. Kesepakatan merk cat (Dulux, Jotun, Mowilex) dan tanggal jadwal
+                mulai pengerjaan.
+              </p>
+            </div>
+            <!-- Step 4 -->
+            <div
+              class="flex flex-col space-y-4 p-5 rounded-2xl bg-surface-container-low shadow-sm relative group hover:bg-surface-container-lowest transition-colors">
+              <div
+                class="w-12 h-12 rounded-xl bg-primary-fixed text-on-primary-fixed flex items-center justify-center font-headline-sm text-headline-sm font-bold">
+                04
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface">Pengerjaan Bersih &amp; Rapi</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Proteksi furnitur dengan masking tape, pengerokan bila perlu, plamir halus, cat dasar alkali, lalu 2
+                lapis finishing rapi.
+              </p>
+            </div>
+            <!-- Step 5 -->
+            <div
+              class="flex flex-col space-y-4 p-5 rounded-2xl bg-surface-container-low shadow-sm relative group hover:bg-surface-container-lowest transition-colors">
+              <div
+                class="w-12 h-12 rounded-xl bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center font-headline-sm text-headline-sm font-bold">
+                05
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface">Inspeksi &amp; Garansi</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Pemeriksaan hasil kerja bersama pemilik hunian. Rumah dibersihkan tuntas, serah terima, dan sertifikat
+                garansi diterbitkan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TESTIMONIALS (APA KATA PELANGGAN) -->
+      <section class="w-full bg-surface-container-low py-20 lg:py-24">
+        <div class="max-w-[1280px] mx-auto px-6 lg:px-12 flex flex-col space-y-12">
+          <div class="text-center max-w-2xl mx-auto space-y-3">
+            <span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Ulasan Pemilik
+              Rumah</span>
+            <h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+              Apa Kata Klien Atelier Paintworks?
+            </h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant">
+              Kepercayaan Anda adalah komitmen utama kami dalam menghasilkan hunian yang nyaman dan bernilai estetika
+              tinggi.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Review 1 -->
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-6">
+              <div class="space-y-4">
+                <div class="flex items-center gap-1 text-primary-container">
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface italic">
+                  “Sangat puas! Biasanya tukang cat meninggalkan bekas cipratan di lantai granit atau saklar, tapi tim
+                  Atelier beneran rapi. Mereka pakai plastik penutup di seluruh perabot. Ruang tamu saya sekarang jadi
+                  warm &amp; berasa hotel butik.”
+                </p>
+              </div>
+              <div class="flex items-center gap-3 pt-2">
+                <div
+                  class="w-11 h-11 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-on-primary-fixed">
+                  RN
+                </div>
+                <div class="flex flex-col">
+                  <span class="font-label-md text-label-md text-on-surface">Ibu Ratna Paramitha</span>
+                  <span class="font-body-sm text-body-sm text-on-surface-variant">Cluster Discovery, Bintaro Jaya</span>
+                </div>
+              </div>
+            </div>
+            <!-- Review 2 -->
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-6">
+              <div class="space-y-4">
+                <div class="flex items-center gap-1 text-primary-container">
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface italic">
+                  “Estimasi harganya sangat jelas dari awal tanpa ada tambahan biaya tak terduga. Fasad rumah yang
+                  tadinya belang kena hujan sekarang mulus rata warnanya. Tepat waktu sesuai deadline 4 hari yang
+                  dijanjikan.”
+                </p>
+              </div>
+              <div class="flex items-center gap-3 pt-2">
+                <div
+                  class="w-11 h-11 rounded-full bg-tertiary-fixed flex items-center justify-center font-bold text-on-tertiary-fixed">
+                  HW
+                </div>
+                <div class="flex flex-col">
+                  <span class="font-label-md text-label-md text-on-surface">Bpk. Hendra Wijaya</span>
+                  <span class="font-body-sm text-body-sm text-on-surface-variant">The Icon, BSD City</span>
+                </div>
+              </div>
+            </div>
+            <!-- Review 3 -->
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-6">
+              <div class="space-y-4">
+                <div class="flex items-center gap-1 text-primary-container">
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                  <span class="material-symbols-outlined text-[18px]">star</span>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface italic">
+                  “Konsultasi warnanya sangat membantu. Diberi beberapa opsi swatch langsung di tembok biar tahu efek
+                  pencahayaan lampu malam dan siang hari. Hasilnya luar biasa presisi. Pasti saya rekomendasikan ke
+                  rekan-rekan dokter lain.”
+                </p>
+              </div>
+              <div class="flex items-center gap-3 pt-2">
+                <div
+                  class="w-11 h-11 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-on-secondary-fixed">
+                  AS
+                </div>
+                <div class="flex flex-col">
+                  <span class="font-label-md text-label-md text-on-surface">dr. Adrian Santoso, Sp.A</span>
+                  <span class="font-body-sm text-body-sm text-on-surface-variant">Kebayoran Baru, Jakarta Selatan</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SERVICE AREA COVERAGE -->
+      <section class="w-full bg-surface py-16">
+        <div class="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div
+            class="rounded-3xl bg-surface-container p-8 lg:p-12 shadow-sm flex flex-col lg:flex-row items-center justify-between gap-8">
+            <div class="space-y-3 max-w-xl">
+              <span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Cakupan
+                Wilayah</span>
+              <h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">Area Layanan Pengecatan Kami
+              </h2>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Tim estimator dan aplikator kami siap meluncur ke lokasi hunian Anda. Nikmati kemudahan survey gratis
+                dan uji sampel cat di tempat.
+              </p>
+              <div class="inline-flex items-center gap-2 pt-2 text-tertiary font-label-md text-label-md">
+                <span class="material-symbols-outlined text-[20px]">explore</span>
+                <span class="">Gratis survey ke lokasi Anda dalam radius 25 km</span>
+              </div>
+            </div>
+            <div class="flex flex-wrap gap-2.5 max-w-lg justify-start lg:justify-end">
+              <span
+                class="px-4 py-2 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm">Jakarta
+                Selatan</span>
+              <span
+                class="px-4 py-2 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm">Jakarta
+                Barat</span>
+              <span
+                class="px-4 py-2 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm">Jakarta
+                Pusat</span>
+              <span
+                class="px-4 py-2 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm">Jakarta
+                Timur</span>
+              <span
+                class="px-4 py-2 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm">BSD
+                / Serpong</span>
+              <span
+                class="px-4 py-2 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm">Bintaro
+                Jaya</span>
+              <span
+                class="px-4 py-2 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm">Tangerang
+                Selatan</span>
+              <span
+                class="px-4 py-2 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm">Kota
+                Tangerang</span>
+              <span
+                class="px-4 py-2 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm">Depok
+                &amp; Sekitarnya</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ SECTION (ACCORDION) -->
+      <section class="w-full bg-surface-container-low py-20 lg:py-24" id="faq">
+        <div class="max-w-[960px] mx-auto px-6 lg:px-12 flex flex-col space-y-10">
+          <div class="text-center space-y-3">
+            <span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Tanya Jawab</span>
+            <h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+              Pertanyaan yang Sering Diajukan
+            </h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant">
+              Segala hal yang perlu Anda ketahui mengenai sistem kerja, penetapan biaya, dan garansi Atelier Paintworks.
+            </p>
+          </div>
+          <div class="space-y-4" id="faqAccordionGroup">
+            <!-- FAQ Item 1 -->
+            <div
+              class="faq-item rounded-2xl bg-surface-container-lowest shadow-sm overflow-hidden transition-all duration-200">
+              <button class="faq-toggle-btn w-full p-6 text-left flex items-center justify-between gap-4" type="button">
+                <span class="font-headline-sm text-headline-sm text-on-surface">Berapa biaya jasa pengecatan per meter
+                  persegi?</span>
+                <span
+                  class="material-symbols-outlined text-[24px] text-on-surface-variant transition-transform duration-300 faq-icon">expand_more</span>
+              </button>
+              <div
+                class="faq-content hidden px-6 pb-6 pt-0 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Biaya jasa pengecatan kami berkisar antara <strong class="text-on-surface">Rp 20.000 hingga Rp 35.000
+                  per meter persegi</strong> untuk opsi jasa tenaga saja (bergantung pada ketinggian plafon dan kondisi
+                dinding). Kami juga menyediakan sistem <strong class="text-on-surface">Paket All-In</strong> (tenaga +
+                cat premium seperti Jotun Majestic atau Dulux Pentalite + plamir &amp; masking) mulai Rp 45.000/m².
+                Semua dirinci transparan dalam RAB resmi.
+              </div>
+            </div>
+            <!-- FAQ Item 2 -->
+            <div
+              class="faq-item rounded-2xl bg-surface-container-lowest shadow-sm overflow-hidden transition-all duration-200">
+              <button class="faq-toggle-btn w-full p-6 text-left flex items-center justify-between gap-4" type="button">
+                <span class="font-headline-sm text-headline-sm text-on-surface">Apakah survey lokasi dan konsultasi
+                  warna benar-benar gratis?</span>
+                <span
+                  class="material-symbols-outlined text-[24px] text-on-surface-variant transition-transform duration-300 faq-icon">expand_more</span>
+              </button>
+              <div
+                class="faq-content hidden px-6 pb-6 pt-0 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Ya, benar. Survey ke lokasi Anda untuk area Jabodetabek (dalam radius 25 km) sepenuhnya gratis tanpa
+                ikatan kontrak. Tim kami akan mengukur bidang dinding, menganalisis apakah ada bagian lembap atau retak,
+                serta membawakan kartu warna untuk konsultasi tone yang tepat.
+              </div>
+            </div>
+            <!-- FAQ Item 3 -->
+            <div
+              class="faq-item rounded-2xl bg-surface-container-lowest shadow-sm overflow-hidden transition-all duration-200">
+              <button class="faq-toggle-btn w-full p-6 text-left flex items-center justify-between gap-4" type="button">
+                <span class="font-headline-sm text-headline-sm text-on-surface">Apakah cat dan bahan disiapkan oleh
+                  pihak Atelier atau pemilik rumah?</span>
+                <span
+                  class="material-symbols-outlined text-[24px] text-on-surface-variant transition-transform duration-300 faq-icon">expand_more</span>
+              </button>
+              <div
+                class="faq-content hidden px-6 pb-6 pt-0 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Sistem kami sangat fleksibel. Anda dapat memilih <strong class="text-on-surface">Paket Terima Beres
+                  (All-In)</strong> di mana seluruh cat asli bergaransi pabrik, plamir, rol, dan plastik masking kami
+                sediakan, atau Anda bisa memilih <strong class="text-on-surface">Jasa Aplikasi Saja</strong> jika Anda
+                sudah membeli kaleng cat sendiri.
+              </div>
+            </div>
+            <!-- FAQ Item 4 -->
+            <div
+              class="faq-item rounded-2xl bg-surface-container-lowest shadow-sm overflow-hidden transition-all duration-200">
+              <button class="faq-toggle-btn w-full p-6 text-left flex items-center justify-between gap-4" type="button">
+                <span class="font-headline-sm text-headline-sm text-on-surface">Berapa lama estimasi waktu pengerjaan
+                  untuk satu unit rumah?</span>
+                <span
+                  class="material-symbols-outlined text-[24px] text-on-surface-variant transition-transform duration-300 faq-icon">expand_more</span>
+              </button>
+              <div
+                class="faq-content hidden px-6 pb-6 pt-0 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Untuk pengecatan interior rumah tinggal standar (luas bangunan 100–150 m²), rata-rata pengerjaan tuntas
+                dalam <strong class="text-on-surface">3 hingga 5 hari kerja</strong>. Kami menurunkan tim dengan jumlah
+                personil seimbang agar ruangan dapat kembali Anda gunakan dengan cepat dan nyaman.
+              </div>
+            </div>
+            <!-- FAQ Item 5 -->
+            <div
+              class="faq-item rounded-2xl bg-surface-container-lowest shadow-sm overflow-hidden transition-all duration-200">
+              <button class="faq-toggle-btn w-full p-6 text-left flex items-center justify-between gap-4" type="button">
+                <span class="font-headline-sm text-headline-sm text-on-surface">Bagaimana perlindungan furnitur dan
+                  lantai selama proses pengecatan?</span>
+                <span
+                  class="material-symbols-outlined text-[24px] text-on-surface-variant transition-transform duration-300 faq-icon">expand_more</span>
+              </button>
+              <div
+                class="faq-content hidden px-6 pb-6 pt-0 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Standar SOP kami mewajibkan penutupan total: lantai dipasangi drop sheet karton tebal / terpal plastik
+                khusus, saklar listrik dan lis kusen dilapisi masking tape 3M, dan perabot tengah ruangan dibungkus
+                stretch film. Di akhir proyek, tim kami melakukan pembersihan tuntas.
+              </div>
+            </div>
+            <!-- FAQ Item 6 -->
+            <div
+              class="faq-item rounded-2xl bg-surface-container-lowest shadow-sm overflow-hidden transition-all duration-200">
+              <button class="faq-toggle-btn w-full p-6 text-left flex items-center justify-between gap-4" type="button">
+                <span class="font-headline-sm text-headline-sm text-on-surface">Apakah ada jaminan garansi jika cat
+                  mengelupas atau belang?</span>
+                <span
+                  class="material-symbols-outlined text-[24px] text-on-surface-variant transition-transform duration-300 faq-icon">expand_more</span>
+              </button>
+              <div
+                class="faq-content hidden px-6 pb-6 pt-0 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Tentu. Kami memberikan <strong class="text-on-surface">Garansi Retouch Pekerjaan hingga 90 hari</strong>
+                untuk interior dan garansi ketahanan hingga 6 bulan untuk paket all-in eksterior. Jika ada bagian cat
+                mengelupas atau kurang rata akibat proses aplikasi, tim kami akan datang melakukan perbaikan tanpa biaya
+                tambahan.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FINAL CONVERSION CTA SECTION -->
+      <section class="w-full bg-surface py-20 lg:py-28" id="kontak">
+        <div class="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div
+            class="relative rounded-3xl overflow-hidden bg-primary p-8 lg:p-16 text-on-primary shadow-2xl flex flex-col items-center text-center space-y-8">
+            <div
+              class="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-primary-container/40 blur-3xl pointer-events-none">
+            </div>
+            <div
+              class="absolute -bottom-24 -right-24 w-96 h-96 rounded-full bg-surface-tint/50 blur-3xl pointer-events-none">
+            </div>
+            <div
+              class="relative z-10 flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-container-lowest/15 backdrop-blur-md">
+              <span class="w-2.5 h-2.5 rounded-full bg-tertiary-fixed animate-ping"></span>
+              <span class="font-label-sm text-label-sm uppercase tracking-wider text-surface-bright">Respon Cepat •
+                Rata-rata &lt; 15 Menit</span>
+            </div>
+            <div class="relative z-10 space-y-4 max-w-3xl">
+              <h2 class="font-headline-xl text-headline-xl text-on-primary tracking-tight leading-tight">
+                Siap Mengubah Suasana Hunian Menjadi Lebih Elegan?
+              </h2>
+              <p class="font-body-lg text-body-lg text-primary-fixed max-w-2xl mx-auto leading-relaxed">
+                Diskusikan kebutuhan warna dan jadwal pengerjaan Anda sekarang. Kami siap membantu menghitung estimasi
+                anggaran dan menjadwalkan kunjungan survey gratis.
+              </p>
+            </div>
+            <div class="relative z-10 flex flex-col sm:flex-row items-center gap-4 pt-2">
+              <a class="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-surface-container-lowest text-primary font-label-md text-label-md font-bold hover:bg-surface-bright transition-all duration-300 shadow-xl hover:scale-105"
+                href="https://wa.me/6281234567890?text=Halo%20Atelier%20Paintworks,%20saya%20ingin%20konsultasi%20pengecatan%20rumah"
+                rel="noopener noreferrer" target="_blank">
+                <span class="material-symbols-outlined text-[24px] text-tertiary">chat</span>
+                <span class="">Chat WhatsApp: +62 812-3456-7890</span>
+              </a>
+              <a class="inline-flex items-center gap-2 px-6 py-4 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md hover:bg-surface-tint transition-colors"
+                href="#layanan">
+                <span class="">Pelajari Pilihan Paket</span>
+                <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+              </a>
+            </div>
+            <div
+              class="relative z-10 pt-4 flex flex-wrap justify-center items-center gap-6 font-body-sm text-body-sm text-primary-fixed">
+              <span class="flex items-center gap-1.5"><span
+                  class="material-symbols-outlined text-[16px]">check_circle</span> Tanpa Biaya Survey
+                Tersembunyi</span>
+              <span class="flex items-center gap-1.5"><span
+                  class="material-symbols-outlined text-[16px]">check_circle</span> Garansi Rapi &amp; Bersih</span>
+              <span class="flex items-center gap-1.5"><span
+                  class="material-symbols-outlined text-[16px]">check_circle</span> Cat Asli Tersegel Pabrik</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <aside aria-label="WhatsApp Quick Action" class="fixed bottom-6 right-6 z-50 flex items-center gap-3">
+    <div
+      class="hidden sm:flex items-center bg-surface-container-lowest px-4 py-2 rounded-full shadow-[0_8px_24px_rgba(26,26,24,0.08)]">
+      <span class="font-label-md text-label-md text-on-surface">Konsultasi Gratis via WhatsApp</span>
+    </div>
+    <a aria-label="Chat WhatsApp"
+      class="w-14 h-14 rounded-full bg-tertiary flex items-center justify-center text-on-tertiary shadow-[0_8px_24px_-2px_rgba(66,95,72,0.35)] hover:scale-105 transition-transform duration-200"
+      href="https://wa.me/6281234567890" rel="noopener noreferrer" target="_blank">
+      <span class="material-symbols-outlined text-[28px]">chat</span>
+    </a>
+  </aside>
+  <!-- FOOTER -->
+  <footer class="w-full bg-surface-container-low text-on-surface">
+    <div class="max-w-[1280px] mx-auto px-6 lg:px-12 pt-16 pb-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center gap-3">
+            <img alt="Atelier Paintworks" class="h-36 w-auto object-contain"
+              src="https://lh3.googleusercontent.com/aida/AEtjO1UD2xAz-rzkWCHPrpnfT1gN_yw6E1ZTOVdRupjiUoqNaCBTLx__MIRixlicgJYFZQYDvkB72kgKa5i8uCFrnourpKBXj4JM2fNX-kRd6xmj351gmmIneD0_czpATQi_AdaCknj9APEI94_WdhpT_Iv-pXDsez16MB2u79UgeVvhY7hUJYCp1FraW2agD9dsp3BXwyDmM_Y_e736N9HwD5USKQEr13YJHT7lBPh_EexLWtaGLtXtbS5BLD73">
+          </div>
+          <p class="font-body-md text-body-md text-on-surface-variant max-w-sm">
+            Jasa pengecatan profesional untuk rumah tinggal, ruko, dan bangunan komersial dengan hasil rapi, bersih, dan
+            bergaransi.
+          </p>
+          <div class="flex items-center gap-3 pt-2">
+            <a aria-label="Instagram"
+              class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors"
+              href="#"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a>
+            <a aria-label="TikTok"
+              class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors"
+              href="#"><span class="material-symbols-outlined text-[20px]">movie</span></a>
+            <a aria-label="Facebook"
+              class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors"
+              href="#"><span class="material-symbols-outlined text-[20px]">public</span></a>
+            <a aria-label="YouTube"
+              class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors"
+              href="#"><span class="material-symbols-outlined text-[20px]">play_circle</span></a>
+          </div>
+        </div>
+        <div class="space-y-3">
+          <h3 class="font-headline-sm text-headline-sm text-on-surface text-base font-semibold">Layanan</h3>
+          <ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+            <li class=""><a class="hover:text-on-surface transition-colors" href="#layanan">Cat Interior</a></li>
+            <li class=""><a class="hover:text-on-surface transition-colors" href="#layanan">Cat Eksterior</a></li>
+            <li class=""><a class="hover:text-on-surface transition-colors" href="#layanan">Cat Ulang &amp; Refresh</a>
+            </li>
+            <li class=""><a class="hover:text-on-surface transition-colors" href="#layanan">Pengecatan Ruko &amp;
+                Kantor</a></li>
+            <li class=""><a class="hover:text-on-surface transition-colors" href="#layanan">Waterproofing Dinding</a>
+            </li>
+          </ul>
+        </div>
+        <div class="space-y-3">
+          <h3 class="font-headline-sm text-headline-sm text-on-surface text-base font-semibold">Navigasi Cepat</h3>
+          <ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+            <li class=""><a class="hover:text-on-surface transition-colors" href="#">Home</a></li>
+            <li class=""><a class="hover:text-on-surface transition-colors" href="#layanan">Layanan</a></li>
+            <li class=""><a class="hover:text-on-surface transition-colors" href="#hasil-pekerjaan">Portfolio</a></li>
+            <li class=""><a class="hover:text-on-surface transition-colors" href="#kenapa-kami">Kenapa Kami</a></li>
+            <li class=""><a class="hover:text-on-surface transition-colors" href="#proses">Proses Kerja</a></li>
+            <li class=""><a class="hover:text-on-surface transition-colors" href="#faq">FAQ</a></li>
+            <li class=""><a class="hover:text-on-surface transition-colors" href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+        <div class="space-y-4">
+          <div class="space-y-2">
+            <h3 class="font-headline-sm text-headline-sm text-on-surface text-base font-semibold">Area Layanan</h3>
+            <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Jakarta Selatan, Jakarta Barat,
+              BSD / Serpong, Tangerang Selatan, Depok</p>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-headline-sm text-headline-sm text-on-surface text-base font-semibold">Hubungi Kami</h3>
+            <div class="font-body-sm text-body-sm text-on-surface-variant space-y-1">
+              <p class="">WhatsApp: +62 812-3456-7890</p>
+              <p class="">Email: halo@atelierpaintworks.com</p>
+              <p class="">Operasional: Setiap Hari 08.00 - 18.00 WIB</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mt-12 pt-8 border-t border-surface-container-highest flex flex-col md:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-surface-variant">
+        <p class="">© 2026 Atelier Paintworks — Template Jasa Pengecatan Profesional. All rights reserved.</p>
+        <div class="flex items-center gap-6">
+          <a class="hover:text-on-surface transition-colors" href="#">Syarat &amp; Ketentuan</a>
+          <a class="hover:text-on-surface transition-colors" href="#">Kebijakan Privasi</a>
+          <a class="hover:text-on-surface transition-colors" href="#">Garansi Pekerjaan</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- LIGHTWEIGHT INLINE JAVASCRIPT -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // 1. Before & After Slider Interactivity
+      var container = document.getElementById('beforeAfterContainer');
+      var beforeLayer = document.getElementById('beforeLayer');
+      var sliderHandle = document.getElementById('sliderHandle');
+      var beforeImgRef = document.getElementById('beforeImgRef');
+
+      if (container && beforeLayer && sliderHandle && beforeImgRef) {
+        var isDown = false;
+
+        function updateSlider(x) {
+          var rect = container.getBoundingClientRect();
+          var posX = x - rect.left;
+          if (posX < 0) posX = 0;
+          if (posX > rect.width) posX = rect.width;
+          var percentage = (posX / rect.width) * 100;
+
+          beforeLayer.style.width = percentage + '%';
+          sliderHandle.style.left = percentage + '%';
+          beforeImgRef.style.width = rect.width + 'px';
+        }
+
+        function setInitialSize() {
+          var rect = container.getBoundingClientRect();
+          beforeImgRef.style.width = rect.width + 'px';
+        }
+
+        window.addEventListener('resize', setInitialSize);
+        setInitialSize();
+
+        container.addEventListener('mousedown', function (e) {
+          isDown = true;
+          updateSlider(e.clientX);
+        });
+
+        window.addEventListener('mouseup', function () {
+          isDown = false;
+        });
+
+        window.addEventListener('mousemove', function (e) {
+          if (!isDown) return;
+          updateSlider(e.clientX);
+        });
+
+        container.addEventListener('touchstart', function (e) {
+          isDown = true;
+          if (e.touches.length > 0) updateSlider(e.touches[0].clientX);
+        }, { passive: true });
+
+        window.addEventListener('touchend', function () {
+          isDown = false;
+        });
+
+        window.addEventListener('touchmove', function (e) {
+          if (!isDown) return;
+          if (e.touches.length > 0) updateSlider(e.touches[0].clientX);
+        }, { passive: true });
+      }
+
+      // 2. FAQ Accordion Logic
+      var faqButtons = document.querySelectorAll('.faq-toggle-btn');
+      faqButtons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var content = btn.nextElementSibling;
+          var icon = btn.querySelector('.faq-icon');
+          var isHidden = content.classList.contains('hidden');
+
+          document.querySelectorAll('.faq-content').forEach(function (el) {
+            el.classList.add('hidden');
+          });
+          document.querySelectorAll('.faq-icon').forEach(function (ic) {
+            ic.style.transform = 'rotate(0deg)';
+          });
+
+          if (isHidden) {
+            content.classList.remove('hidden');
+            if (icon) icon.style.transform = 'rotate(180deg)';
+          }
+        });
+      });
+
+      // 3. Portfolio Tabs Filter
+      var filterBtns = document.querySelectorAll('.portfolio-filter-btn');
+      var portfolioItems = document.querySelectorAll('.portfolio-item');
+
+      filterBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var filterValue = btn.getAttribute('data-filter');
+
+          filterBtns.forEach(function (b) {
+            b.classList.remove('bg-primary-container', 'text-on-primary');
+            b.classList.add('bg-surface-container', 'text-on-surface');
+          });
+          btn.classList.add('bg-primary-container', 'text-on-primary');
+          btn.classList.remove('bg-surface-container', 'text-on-surface');
+
+          portfolioItems.forEach(function (item) {
+            var category = item.getAttribute('data-category');
+            if (filterValue === 'all' || category === filterValue) {
+              item.style.display = 'flex';
+            } else {
+              item.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>
